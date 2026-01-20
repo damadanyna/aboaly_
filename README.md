@@ -1,3 +1,10 @@
+Hello Juilane , there are the require compentent that you need:
+
+- node js v 20.20.0
+- python  v >3
+- Mysql 8&
+
+
 # Vuetify (Default)
 
 This is the official scaffolding tool for Vuetify, designed to give you a head start in building your new Vuetify application. It sets up a base template with all the necessary configurations and standard directory structure, enabling you to begin development without the hassle of setting up the project from scratch.
