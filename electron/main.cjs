@@ -8,12 +8,12 @@ function createWindow () {
     width: 1200,
     height: 800,
     webPreferences: {
-      contextIsolation: true
+      contextIsolation: false
     }
   })
 
   if (isDev) {
-    win.loadURL('http://localhost:5173')
+    win.loadURL('http://localhost:3000')
     win.webContents.openDevTools()
   } else {
     win.loadFile(path.join(__dirname, '../dist/index.html'))
@@ -25,3 +25,5 @@ app.whenReady().then(createWindow)
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') app.quit()
 })
+
+app.setApplicationMenu(null)
