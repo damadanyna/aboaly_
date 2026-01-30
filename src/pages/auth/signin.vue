@@ -1,5 +1,5 @@
 <template>
-<div id="bg_img" class="  w-full flex flex-row justify-end items-center h-full">
+<div id="bg_img" class="    w-full flex flex-row justify-end items-center h-full">
 
     <div class="flex justify-end flex-row sm:px-24 sm:w-[80vw] ">
         <div class="  sm:w-[50%] pa-12 " >

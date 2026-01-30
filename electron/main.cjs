@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow,Menu } = require('electron')
 const path = require('path')
 
 const isDev = !app.isPackaged
@@ -26,4 +26,4 @@ app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') app.quit()
 })
 
-app.setApplicationMenu(null)
+Menu.setApplicationMenu(null)
